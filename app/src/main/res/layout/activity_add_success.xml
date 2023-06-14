@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F4F4F4"> <!-- 设置背景颜色为浅灰色 -->
+
+    <ImageView
+        android:src="@drawable/person"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp" /> <!-- 添加您的应用程序logo，设置宽度和高度，居中显示 -->
+
+    <TextView
+        android:id="@+id/text"
+        android:text="successful！"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:layout_marginTop="20dp" /> <!-- 修改文本颜色为深灰色，增加上边距 -->
+
+    <Button
+        android:text="finish"
+        android:id="@+id/done"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+
+        /> <!-- 设置按钮文本颜色为白色，添加自定义按钮背景 -->
+</LinearLayout>
